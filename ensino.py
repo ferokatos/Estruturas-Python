@@ -130,6 +130,9 @@ def listas():
     print("Tipos de lista:\na)Tuplas: listas imutaveis quando definidas.\nb)aninhadas: listas dentro de listas, da mesma tipagem. Ex: lista = [[1,2,3],[4,5,6]]\nc)listas compostas: listas dentro de listas com elementos de diferentes tipos. Ex: lista = ['idade',[19]]\nd)Dicionário: listas que definem chaves, a receber respectivos valores, como se você digitasse o nome de alguém, e puxasse todos os dados daquela pessoa.Ex: dict = { 'nome'(chave): 'Gabriel(valor)'")
     c = input("digite qualquer coisa para continuar: ")
     limpa()
+    print("exemplos de uso do for com listas:\na)for variavel in 'palavra': irá percorrrer letra por letra em uma palavra.\nb)for variavel in lista: irá percorrer todos elementos da lista.\nc)for variavel1(posição),variavel2(elemento) in enumerate(lista): percorre mostrando o elemento e a posição que o elemento foi encontrado.\nd)for v1,v2 in zip(lista1,lista2): percorre várias listas.")
+    c = input("digite qualquer coisa para continuar: ")
+    limpa()
 def funcao():
     print("funções são como partes resumidas de um código. Servem para ajudar na nossa vida, pois elas nos permitem repetir uma parte do código, se necessário, sem precisar digitar o processo todo de novo, basta chama-la.")
     print("Existem vários tipos de funções, funções ela servem para executar todo um bloco,tanto para retornar valores.")
