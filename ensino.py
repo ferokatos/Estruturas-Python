@@ -1,4 +1,4 @@
-#vamos estruturas maneiras dinâmicas de ensino a cerca das estruturas e comandos de python
+#vamos ver estruturas de maneiras dinâmicas de ensino a cerca das estruturas e comandos de python
 #Version 1.0
 import os
 def limpa():
